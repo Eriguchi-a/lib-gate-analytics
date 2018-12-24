@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
     <head>
         <title>いいねありがとうございました！|BAD UI</title>
@@ -6,4 +6,6 @@
     <body>
         <p>自動で閉じたい</p>
     </body>
-</html>
+</html> -->
+<?php
+echo "Hello World!! Hello Heroku!!!";
