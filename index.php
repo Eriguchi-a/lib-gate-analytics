@@ -13,6 +13,15 @@
         <title>いいねありがとうございました！|BAD UI</title>
     </head>
     <body>
-        <p>自動で閉じたい</p>
+        <p>自動で閉じます</p>
+        <script>
+            window.onload = function(){
+                setTimeout(windowClose, 5000);
+            }
+            function windowClose(){
+                // ウィンドウ閉じる
+                window.close();
+            }
+        </script>
     </body>
 </html>
