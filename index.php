@@ -10,13 +10,12 @@
 
             gtag('config', 'UA-131225464-1');
         </script>
-        <title>いいねありがとうございました！|BAD UI</title>
+        <title>Lib-gate analytics</title>
     </head>
     <body>
-        <p>自動で閉じます</p>
         <script>
             window.onload = function(){
-                setTimeout(windowClose, 5000);
+                windowClose();
             }
             function windowClose(){
                 // ウィンドウ閉じる
