@@ -13,12 +13,12 @@
         <title>Lib-gate analytics</title>
     </head>
     <body>
-        <div style="padding: 16px;">
-            <p style="font-size: 16px;">いいねありがとうございました！</p>
-        </div>
+        <div class="wrapper" style="padding: 16px;"></div>
         <script>
             window.onload = function(){
                 windowClose();
+                var wrapper = document.getElementsByClassName('wrapper');
+                wrapper.insertAdjacentHTML('<p style="font-size: 16px;">いいねありがとうございました！</p>');
             }
             function windowClose(){
                 // ウィンドウ閉じる
