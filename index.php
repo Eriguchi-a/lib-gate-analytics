@@ -18,7 +18,7 @@
             window.onload = function(){
                 windowClose();
                 var wrapper = document.getElementsByClassName('wrapper');
-                wrapper[0].insertAdjacentHTML('<p style="font-size: 16px;">いいねありがとうございました！</p>');
+                wrapper[0].insertAdjacentHTML('afterend', '<p style="font-size: 16px;">いいねありがとうございました！</p>');
             }
             function windowClose(){
                 // ウィンドウ閉じる
