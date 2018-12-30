@@ -13,6 +13,9 @@
         <title>Lib-gate analytics</title>
     </head>
     <body>
+        <div style="padding: 16px;">
+            <p style="font-size: 16px;">いいねありがとうございました！</p>
+        </div>
         <script>
             window.onload = function(){
                 windowClose();
