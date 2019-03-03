@@ -1,0 +1,25 @@
+{
+  "name": "lib-gate-analytics",
+  "version": "1.0.0",
+  "description": "lib-gate analytics project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eriguchi-a/lib-gate-analytics.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eriguchi-a/lib-gate-analytics/issues"
+  },
+  "homepage": "https://github.com/Eriguchi-a/lib-gate-analytics#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp-connect-php": "^1.0.3",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.11.0"
+  }
+}
