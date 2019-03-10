@@ -1,14 +1,22 @@
 var gulp         = require('gulp'),
     browserSync  = require('browser-sync'),
     connect      = require('gulp-connect-php'),
-    sass = require('gulp-sass');
+    sass         = require('gulp-sass'),
+    autoprefixer = require('gulp-autoprefixer');
  
+
+
+/**
+ * connect server
+ */
 gulp.task('server', function() {
   connect.server({
     port:8001
   }, function (){
     browserSync({
-      proxy: 'localhost:8001'
+        proxy: 'localhost:8001',
+        notify: false
+
     });
   });
 });
@@ -21,16 +29,19 @@ gulp.task('reload', function() {
  * sass
  */
 gulp.task('sass', function() {
-    gulp.src('./src/sass/**/*.scss')
-        .pipe(sass({ outputStyle: 'expanded' }))
-        .pipe(gulp.dest('./dst/css/'));
+    return gulp.src('./src/sass/**/*.scss')
+        .pipe(sass().on('error', sass.logError))
+        .pipe(autoprefixer())
+        .pipe(gulp.dest('./dst/css/'))
+        .pipe(browserSync.stream());
+});
+
+gulp.task('sass-watch', function() {
+    gulp.watch('./src/sass/**/*.scss', gulp.series('sass'));
 });
 
 
 
-gulp.task("default", ['connect-sync'], function() {
-    gulp.watch("./**/*.php", ["reload"]);
-    var watcher = gulp.watch('./src/sass/**/*.scss', ['sass', 'reload']);
-    watcher.on('change', function(event) {
-    });
+gulp.task("default", gulp.series(gulp.parallel('server', 'sass-watch')), function() {
+    gulp.watch('./**/*.php', gulp.task('reload'));
 });

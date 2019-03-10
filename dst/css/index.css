@@ -1,0 +1,25 @@
+body {
+  margin: 0; }
+
+.header {
+  font-family: 'Sigmar One', cursive;
+  font-size: 36px;
+  padding: 16px; }
+
+.inner {
+  max-width: 1120px;
+  margin: 0 auto; }
+
+h2 {
+  padding: 16px;
+  background: #3caef1;
+  color: white;
+  margin: 0;
+  font-size: 22px; }
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 700px;
+  margin: 0 auto; }
