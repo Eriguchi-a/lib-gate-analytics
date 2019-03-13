@@ -2,9 +2,10 @@ body {
     margin: 0;
 }
 .header {
-    font-family: 'Sigmar One', cursive;
+    font-family: 'Bungee', cursive;
     font-size: 36px;
     padding: 16px;
+    text-align: center;
 }
 .inner {
     max-width: 1120px;
@@ -16,6 +17,7 @@ h2 {
     color: white;
     margin: 0;
     font-size: 22px;
+    text-align: center;
 }
 .wrapper {
     display: flex;
