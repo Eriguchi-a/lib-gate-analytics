@@ -37,7 +37,7 @@
         </h2>
 
         <div class="wrapper">
-            <p>こちらの記事の内容はSlackの<a href="#">社内通知チャンネル</a>にも配信しています。<br>コメントはチャンネル内にていただけると嬉しいです！</p>
+            <p style="padding:0 16px">こちらの記事の内容はSlackの<a href="https://app.slack.com/client/TPXECNKK8/CPMAZMDUZ">社内通知チャンネル</a>にも配信しています。<br>コメントはチャンネル内にていただけると嬉しいです！</p>
             <marquee>★特典映像開発中！！次回も押してください★</marquee>
         </div>
 <?php endif ?>
