@@ -35,6 +35,11 @@
         <h2 class="itex-title">
             いいねありがとうございました。
         </h2>
+
+        <div class="wrapper">
+            <p>こちらの記事の内容はSlackの<a href="#">社内通知チャンネル</a>にも配信しています。<br>コメントはチャンネル内にていただけると嬉しいです！</p>
+            <marquee>★特典映像開発中！！次回も押してください★</marquee>
+        </div>
 <?php endif ?>
     </body>
 </html>
