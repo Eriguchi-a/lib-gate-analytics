@@ -2,23 +2,9 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Segoe UI', HiraginoCustom, 'Hiragino Kaku Gothic ProN', YuGothic, 'Yu Gothic Medium', Meiryo, sans-serif; }
 
-.header {
-  font-family: 'Bungee', cursive;
-  font-size: 36px;
-  padding: 16px;
-  text-align: center; }
-
 .inner {
   max-width: 1120px;
   margin: 0 auto; }
-
-h2 {
-  padding: 16px;
-  background: #3caef1;
-  color: white;
-  margin: 0;
-  font-size: 22px;
-  text-align: center; }
 
 .wrapper {
   display: flex;
@@ -26,3 +12,29 @@ h2 {
   flex-direction: column;
   max-width: 700px;
   margin: 0 auto; }
+
+h2 {
+  padding: 16px;
+  color: white;
+  margin: 0;
+  font-size: 22px;
+  text-align: center; }
+
+header {
+  font-size: 36px;
+  padding: 16px;
+  text-align: center; }
+
+.badui-header {
+  font-family: 'Bungee', cursive; }
+
+.badui-title {
+  background: #3caef1; }
+
+.itex-header {
+  font-size: 36px;
+  padding: 16px;
+  text-align: center; }
+
+.itex-title {
+  background: #d95a5e; }

@@ -16,15 +16,25 @@
         <title>Lib-gate analytics</title>
     </head>
     <body>
-        <div class="header">
-                BAD UI
-        </div>
+<?php if (strpos($_SERVER['QUERY_STRING'], 'bad-ui') !== false) : ?>
+        <header class="badui-header">
+            BAD UI
+        </header>
 
-        <h2>
-                いいねありがとうございました。
+        <h2 class="badui-title">
+            いいねありがとうございました。
         </h2>
         <div class="wrapper" style="padding: 16px;">
             <a class="twitter-moment" href="https://twitter.com/i/moments/1102519851556327424?ref_src=twsrc%5Etfw">UIってむずかしいね</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
         </div>
+<?php elseif (strpos($_SERVER['QUERY_STRING'], 'itex') !== false) : ?>
+        <header class="itex-header">
+            ITEX通信
+        </header>
+
+        <h2 class="itex-title">
+            いいねありがとうございました。
+        </h2>
+<?php endif ?>
     </body>
 </html>
