@@ -36,9 +36,12 @@
             いいねありがとうございました。
         </h2>
 
-        <div class="wrapper">
-            <p style="padding:0 16px">こちらの記事の内容はSlackの<a href="https://app.slack.com/client/TPXECNKK8/CPMAZMDUZ">社内通知チャンネル</a>にも配信しています。<br>コメントはチャンネル内にていただけると嬉しいです！</p>
-            <marquee>★特典映像開発中！！次回も押してください★</marquee>
+        <div class="wrapper itex">
+            <p>こちらの記事の内容はSlackの<a href="https://app.slack.com/client/TPXECNKK8/CPMAZMDUZ">社内通知チャンネル</a>にも配信しています。<br>コメントはチャンネル内にていただけると嬉しいです！</p>
+            <p style="text-align: center;">★いいねをしてくれた方限定　特典映像★</p>
+            <div class="youtube">
+              <iframe src="https://www.youtube.com/embed/MXBgOUqJBaA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
         </div>
 <?php endif ?>
     </body>
