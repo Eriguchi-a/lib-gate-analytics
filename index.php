@@ -40,8 +40,21 @@
             <p>こちらの記事の内容はSlackの<a href="https://app.slack.com/client/TPXECNKK8/CPMAZMDUZ">社内通知チャンネル</a>にも配信しています。<br>コメントはチャンネル内にていただけると嬉しいです！</p>
             <p style="text-align: center;">★いいねをしてくれた方限定　特典映像★</p>
             <div class="youtube">
-              <iframe src="https://www.youtube.com/embed/MXBgOUqJBaA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/MXBgOUqJBaA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
+            <pre>みなさん
+こんにちは 小山です。
+
+こちらはフットサルイベントの映像ですが、
+本来は普通に楽しい行事なので是非参加してください。
+
+そして私がこの映像を通してお伝えしたいことは、
+「準備運動はしっかりしよう」ということです。
+
+みなさんも準備運動をして、楽しいフットサルをしてください。
+
+次回の特典映像でお会いしましょう。
+            </pre>
         </div>
 <?php endif ?>
     </body>

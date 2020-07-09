@@ -52,3 +52,6 @@ header {
     right: 0;
     width: 100% !important;
     height: 100% !important; }
+
+pre {
+  padding: 0 16px; }
