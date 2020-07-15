@@ -1,73 +1,101 @@
 body {
-    margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Segoe UI', HiraginoCustom, 'Hiragino Kaku Gothic ProN', YuGothic, 'Yu Gothic Medium', Meiryo, sans-serif;
+		margin: 0;
+		font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Segoe UI', HiraginoCustom, 'Hiragino Kaku Gothic ProN', YuGothic, 'Yu Gothic Medium', Meiryo, sans-serif;
+}
+
+a{
+	word-break: break-all;
+}
+
+ul, li {
+	padding: 0;
+	margin: 0;
+	list-style: none;
 }
 
 .inner {
-    max-width: 1120px;
-    margin: 0 auto;
+		max-width: 1120px;
+		margin: 0 auto;
 }
 .wrapper {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    max-width: 700px;
-    margin: 0 auto;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		max-width: 700px;
+		margin: 0 auto;
 }
 
 h2 {
-  padding: 16px;
-  color: white;
-  margin: 0;
-  font-size: 22px;
-  text-align: center;
+	padding: 16px;
+	color: white;
+	margin: 0;
+	font-size: 22px;
+	text-align: center;
 }
 
 header {
-  font-size: 36px;
-  padding: 16px;
-  text-align: center;
+	font-size: 36px;
+	padding: 16px;
+	text-align: center;
 }
 
 .badui{
-  &-header {
-      font-family: 'Bungee', cursive;
-  }
+	&-header {
+			font-family: 'Bungee', cursive;
+	}
 
-  &-title {
-      background: #3caef1;
-  }
+	&-title {
+			background: #3caef1;
+	}
 }
 
 
 
 .itex {
-  &-header {
-    font-size: 36px;
-    padding: 16px;
-    text-align: center;
-  }
-  &-title {
-    background: #d95a5e;
-  }
-  p {
-    padding: 8px 16px;
-  }
+	&-header {
+		font-size: 36px;
+		padding: 16px;
+		text-align: center;
+	}
+	&-title {
+		background: #d95a5e;
+	}
+	p {
+		padding: 8px 16px;
+	}
 }
 
 .youtube {
-  position: relative;
-  width: 100%;
-  padding-top: 56.25%;
-  iframe {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 100% !important;
-    height: 100% !important;
-  }
+	position: relative;
+	width: 100%;
+	padding-top: 56.25%;
+	iframe {
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 100% !important;
+		height: 100% !important;
+	}
 }
 
-pre {
-  padding: 0 16px;
+hr {
+	width: 100%;
+	margin: 20px 0;
+	border: 1px solid #aaa;
+}
+.movie-caption {
+	white-space: pre-wrap;
+	font-size: 13px;
+	padding: 0 16px;
+	margin-bottom: 20px;
+}
+.movie-list {
+	display: flex;
+	margin-bottom: 60px;
+	&__item {
+		width: calc(50% - 8px);
+		&:nth-child(2n){
+			margin-left: 16px;
+		}
+	}
 }

@@ -2,6 +2,14 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Segoe UI', HiraginoCustom, 'Hiragino Kaku Gothic ProN', YuGothic, 'Yu Gothic Medium', Meiryo, sans-serif; }
 
+a {
+  word-break: break-all; }
+
+ul, li {
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+
 .inner {
   max-width: 1120px;
   margin: 0 auto; }
@@ -53,5 +61,21 @@ header {
     width: 100% !important;
     height: 100% !important; }
 
-pre {
-  padding: 0 16px; }
+hr {
+  width: 100%;
+  margin: 20px 0;
+  border: 1px solid #aaa; }
+
+.movie-caption {
+  white-space: pre-wrap;
+  font-size: 13px;
+  padding: 0 16px;
+  margin-bottom: 20px; }
+
+.movie-list {
+  display: flex;
+  margin-bottom: 60px; }
+  .movie-list__item {
+    width: calc(50% - 8px); }
+    .movie-list__item:nth-child(2n) {
+      margin-left: 16px; }
