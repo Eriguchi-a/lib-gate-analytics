@@ -54,7 +54,7 @@ header {
   position: relative;
   width: 100%;
   padding-top: 56.25%; }
-  .youtube iframe {
+  .youtube iframe, .youtube video {
     position: absolute;
     top: 0;
     right: 0;
